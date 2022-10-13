@@ -30,7 +30,15 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav me-auto">
-
+                        <li class="nav-item">
+                            <a href="{{ route('inventory.index') }}" class="nav-link">Inventory</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{ route('pembelian.create') }}" class="nav-link">Pembelian</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{ route('penjualan.create') }}" class="nav-link">Penjualan</a>
+                        </li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->
